@@ -145,3 +145,35 @@ Command: [null, screenshot {}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57944/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 04 May 2022 14:19:36  INFO logger - Shutting down driver
 ----------------------------------------------
+04 May 2022 15:30:33  INFO logger - .
+04 May 2022 15:30:33  INFO logger - Google page loaded successfully
+04 May 2022 15:30:35  INFO logger - .
+04 May 2022 15:30:35  INFO logger - Google page loaded successfully
+04 May 2022 15:30:39  INFO logger - .
+04 May 2022 15:30:39  INFO logger - selenium bdd framework - Google Search page loaded successfully
+04 May 2022 15:30:42  INFO logger - Shutting down driver
+----------------------------------------------
+04 May 2022 15:30:43  INFO logger - Exception while taking screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'KRISHNARAO', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60298/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+04 May 2022 15:30:43  INFO logger - Shutting down driver
+----------------------------------------------
+04 May 2022 15:33:11  INFO logger - .
+04 May 2022 15:33:11  INFO logger - Google page loaded successfully
+04 May 2022 15:33:13  INFO logger - .
+04 May 2022 15:33:13  INFO logger - Google page loaded successfully
+04 May 2022 15:33:19  INFO logger - .
+04 May 2022 15:33:19  INFO logger - selenium bdd framework - Google Search page loaded successfully
+04 May 2022 15:33:22  INFO logger - Shutting down driver
+----------------------------------------------
+04 May 2022 15:33:23  INFO logger - Exception while taking screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'KRISHNARAO', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60423}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60423/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+04 May 2022 15:33:23  INFO logger - Shutting down driver
+----------------------------------------------

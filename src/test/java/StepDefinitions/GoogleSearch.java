@@ -1,4 +1,4 @@
-package logic;
+package StepDefinitions;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -9,12 +9,12 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import framework.CreateSession;
+import core.CreateSession;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.Homepage;
+import pages.GoogleSearchPage;
 
 /**
  * This class contains methods to perform action on home page.
@@ -22,9 +22,9 @@ import pages.Homepage;
  * @author shanky
  *
  */
-public class HomePageHelper {
+public class GoogleSearch {
 
-	Homepage homepage;
+	GoogleSearchPage homepage;
 	WebDriver driver;
 	String url;
 	String csvFilePath;
@@ -32,9 +32,9 @@ public class HomePageHelper {
 	File file;
 	PrintWriter pw;
 
-	public HomePageHelper() throws IOException {
+	public GoogleSearch() throws IOException {
 		driver = CreateSession.getWebDriver();
-		homepage = new Homepage(driver);
+		homepage = new GoogleSearchPage(driver);
 		csvFilePath = ".//src//test//java//outputFiles//searchResults.csv";
 	}
 

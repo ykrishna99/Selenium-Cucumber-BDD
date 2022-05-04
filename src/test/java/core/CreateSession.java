@@ -1,4 +1,4 @@
-package framework;
+package core;
 
 import java.io.File;
 import java.text.SimpleDateFormat;

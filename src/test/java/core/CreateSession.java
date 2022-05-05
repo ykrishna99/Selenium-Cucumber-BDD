@@ -16,6 +16,7 @@ import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -56,8 +57,9 @@ public class CreateSession {
 
 		// if browser name value is not passed from commandline then by default test
 		// would run on chrome
-		if (browserName == null)
+		if (browserName == null) {
 			browserName = "chrome";
+		}
 
 		// initializing the browser if headless paramter sent as yes, initialize
 		// phantomjs
@@ -121,25 +123,32 @@ public class CreateSession {
 	 * 
 	 * @param scenario to verify if scenarios has passed or failed
 	 */
+	@AfterAll
+	public static void teardown() {
+		Log.info("Shutting down driver" + "\n" + "----------------------------------------------");
+		System.out.println("\n");
+		// quitting the webdriver
+		getWebDriver().quit();
+	}
+
 	@After
-	public void teardown(Scenario scenario) {
+	public static void onScenarioFailed(Scenario scenario) {
 
 		// Here will compare if test is failing then only it will enter into if
 		// condition
 
 		if (scenario.isFailed()) {
-			try {
-				// Create reference of TakesScreenshot
+			try { // Create reference of TakesScreenshot
 				TakesScreenshot ts = (TakesScreenshot) getWebDriver();
 
 				// Call method to capture screenshot
 				File source = ts.getScreenshotAs(OutputType.FILE);
 
 				FileUtils.copyFile(source,
-						new File(".//src//test//java//outputFiles//" + "FailScreenshot"
+						new File("target/screenshots/" + scenario.hashCode() + "_"
 								+ new SimpleDateFormat("MM-dd-yyyy-HH-mm-ss").format(new GregorianCalendar().getTime())
 								+ ".png"));
-				Log.info("Scenario failed and screenshot saved in outputFiles folder");
+				Log.info("Scenario failed and screenshot saved in resources folder");
 			} catch (Exception e) {
 
 				Log.info("Exception while taking screenshot " + e.getMessage());
@@ -147,10 +156,6 @@ public class CreateSession {
 			}
 		}
 
-		Log.info("Shutting down driver" + "\n" + "----------------------------------------------");
-		System.out.println("\n");
-		// quitting the webdriver
-		getWebDriver().quit();
 	}
 
 }

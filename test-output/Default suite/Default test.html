@@ -1,17 +1,12 @@
 <html>
 <head>
-<title>TestNG: Default test</title>
+<title>TestNG:  Default test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
-.log {
-	display: none;
-}
-
-.stack-trace {
-	display: none;
-}
+.log { display: none;} 
+.stack-trace { display: none;} 
 </style>
 <script type="text/javascript">
 <!--
@@ -58,76 +53,42 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-	<h2 align='center'>Default test</h2>
-	<table border='1' align="center">
-		<tr>
-			<td>Tests passed/Failed/Skipped:</td>
-			<td>0/0/0</td>
-		</tr>
-		<tr>
-			<td>Started on:</td>
-			<td>Wed May 04 12:32:56 IST 2022</td>
-		</tr>
-		<tr>
-			<td>Total time:</td>
-			<td>2 seconds (2494 ms)</td>
-		</tr>
-		<tr>
-			<td>Included groups:</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Excluded groups:</td>
-			<td></td>
-		</tr>
-	</table>
-	<p />
-	<small><i>(Hover the method name to see the test class
-			name)</i></small>
-	<p />
-	<table width='100%' border='1' class='invocation-failed'>
-		<tr>
-			<td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td>
-		</tr>
-		<tr>
-			<td><b>Test method</b></td>
-			<td width="30%"><b>Exception</b></td>
-			<td width="10%"><b>Time (seconds)</b></td>
-			<td><b>Instance</b></td>
-		</tr>
-		<tr>
-			<td title='framework.TestRunner.setUpClass()'><b>setUpClass</b><br>Test
-				class: framework.TestRunner<br>Parameters:
-				org.testng.TestRunner@15ac59c2</td>
-			<td><div>
-					<pre>java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
-	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
-	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
-	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:118)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
-	at framework.CreateSession.createDriver(CreateSession.java:91)
-</pre>
-				</div>
-				<a href='#'
-				onClick='toggleBox("stack-trace466661605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
-					to show all stack frames</a>
-				<div class='stack-trace' id='stack-trace466661605'>
-					<pre>java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
-	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
-	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
-	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:118)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
-	at framework.CreateSession.createDriver(CreateSession.java:91)
-</pre>
-				</div></td>
-			<td>0</td>
-			<td>framework.TestRunner@6c4980d3</td>
-		</tr>
-	</table>
-	<p>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 04 19:22:29 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15059 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='core.TestRunner.runScenario()'><b>runScenario</b><br>Test class: core.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get all articles", "Get all articles from Conduit home page"<br/>
+<a href="#Output-1241976048" onClick='toggleBox("Output-1241976048", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1241976048" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1241976048">
+<br><br/>
+<Font Color=#008000> PASS </Font>Title Verification<br/>
+<br><br/>
+<Font Color=#008000> PASS </Font>Articles Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>core.TestRunner@1339e7aa</td></tr>
+</table><p>
 </body>
 </html>

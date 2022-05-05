@@ -1,4 +1,4 @@
-@scenario2
+@GoogleSearchImages
 Feature: selenium bdd frameworks images on google
 
   Scenario: search selenium bdd frameworks images on google search

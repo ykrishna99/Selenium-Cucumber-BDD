@@ -35,7 +35,7 @@ public class GoogleSearch {
 	public GoogleSearch() throws IOException {
 		driver = CreateSession.getWebDriver();
 		homepage = new GoogleSearchPage(driver);
-		csvFilePath = ".//src//test//java//outputFiles//searchResults.csv";
+		csvFilePath = "/resources/searchResults.csv";
 	}
 
 	/**

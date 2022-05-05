@@ -1,4 +1,4 @@
-@scenario1
+@GoogleSearch
 Feature: search for selenium bdd frameworks on google and save the title and url of the results in CSV file
 
   Scenario: search selenium bdd frameworks on google

@@ -27,7 +27,7 @@ public class Assertions {
 
 	public Assertions(WebDriver driver) {
 		file = new File("");
-		testScreenshotDir = file.getAbsoluteFile() + "//src//test//java//outputFiles//";
+		testScreenshotDir = file.getAbsoluteFile() + "/resources";
 		this.driver = driver;
 
 	}

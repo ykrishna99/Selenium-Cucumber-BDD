@@ -4,7 +4,7 @@
 <suite name="Test-Suite">
 	<test name="selenium-bdd-framework">
 		<packages>
-			<package name="framework" />
+			<package name="core" />
 		</packages>
 	</test>
 </suite> 

@@ -67,6 +67,20 @@ public class CommonMethods extends Assertions {
 	}
 
 	/**
+	 * method to wait to specified seconds
+	 * 
+	 * @param seconds to wait/pause the execution
+	 */
+	public void wait(int seconds) {
+		try {
+			Thread.sleep(seconds);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	/**
 	 * method to click on an element with action class
 	 * 
 	 * @param element to be clicked

@@ -65,4 +65,21 @@ public class ConduitHome {
 		}
 		System.out.println("+++++++++++++++++++++++++++++");
 	}
+
+	@And("I will verify tags section displayed")
+	public void verify_tags_section_displayed() {
+		ass.verifyTrue(conduitHome.findElement(conduitHome.tagsSection).isDisplayed(), "Tags Section", true, false);
+	}
+
+	@Then("^I will verify \"(.*)\" in tags section$")
+	public void verify_popular_tags(String popularTag) { 
+		List<WebElement> tagElements = conduitHome.findElements(conduitHome.popularTags);
+		for (WebElement webElement : tagElements) {
+			String tagName = webElement.getText();
+			if (tagName.equalsIgnoreCase(popularTag)) {
+				ass.verifyEquals(tagName, popularTag, "Tags verification", true, false);
+			}			
+		}
+	}
+
 }

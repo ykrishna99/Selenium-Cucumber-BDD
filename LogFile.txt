@@ -14,3 +14,72 @@
 05 May 2022 09:27:52  INFO logger - Scenario failed and screenshot saved in resources folder
 05 May 2022 09:27:52  INFO logger - Shutting down driver
 ----------------------------------------------
+05 May 2022 16:25:49  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 17:37:11  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 17:51:41  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 17:51:43  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 17:51:45  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 17:51:47  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 17:51:47  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 17:58:38  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 18:55:55  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 18:55:55  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 19:00:44  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 19:00:44  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 19:04:12  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 19:24:08  INFO logger - Generated username: gloria.wintheiser
+05 May 2022 19:24:08  INFO logger - Generated email: enrique@test.com
+05 May 2022 19:24:09  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 19:53:23  INFO logger - Generated username: don.davis
+05 May 2022 19:53:23  INFO logger - Generated email: franklin@test.com
+05 May 2022 19:53:26  INFO logger - ClassName :pages.ConduitSignupPage
+05 May 2022 19:53:26  INFO logger - MethodName :findElement
+05 May 2022 19:53:26  INFO logger - Exception :Element not found By.xpath: //a[@href=/profile/]
+05 May 2022 19:53:26  INFO logger - -----------------------------------------------------------------------------------
+05 May 2022 19:53:27  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 19:53:27  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 20:05:12  INFO logger - Generated username: jarrett.gerlach
+05 May 2022 20:05:12  INFO logger - Generated email: renaldo@test.com
+05 May 2022 20:05:15  INFO logger - ClassName :pages.ConduitSignupPage
+05 May 2022 20:05:15  INFO logger - MethodName :findElement
+05 May 2022 20:05:15  INFO logger - Exception :Element not found By.xpath: //a[@href='/profile/'']
+05 May 2022 20:05:15  INFO logger - -----------------------------------------------------------------------------------
+05 May 2022 20:05:15  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 20:05:15  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 20:15:20  INFO logger - Generated username: titus.waters
+05 May 2022 20:15:20  INFO logger - Generated email: zenobia@test.com
+05 May 2022 20:15:26  INFO logger - Scenario failed and screenshot saved in resources folder
+05 May 2022 20:15:26  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 20:28:06  INFO logger - Generated username: edgardo.kulas
+05 May 2022 20:28:06  INFO logger - Generated email: vicenta@test.com
+05 May 2022 20:28:09  INFO logger - Shutting down driver
+----------------------------------------------
+05 May 2022 20:33:41  INFO logger - .
+05 May 2022 20:33:41  INFO logger - Google page loaded successfully
+05 May 2022 20:33:42  INFO logger - .
+05 May 2022 20:33:42  INFO logger - Google page loaded successfully
+05 May 2022 20:33:47  INFO logger - .
+05 May 2022 20:33:47  INFO logger - selenium bdd framework - Google Search page loaded successfully
+05 May 2022 20:33:52  INFO logger - .
+05 May 2022 20:33:52  INFO logger - Google page loaded successfully
+05 May 2022 20:33:53  INFO logger - .
+05 May 2022 20:33:53  INFO logger - Google page loaded successfully
+05 May 2022 20:33:58  INFO logger - .
+05 May 2022 20:33:58  INFO logger - Google Images page loaded successfully
+05 May 2022 20:34:02  INFO logger - .
+05 May 2022 20:34:02  INFO logger - selenium bdd framework - Google Search page loaded successfully
+05 May 2022 20:34:07  INFO logger - Generated username: clarissa.hahn
+05 May 2022 20:34:07  INFO logger - Generated email: kim@test.com
+05 May 2022 20:34:13  INFO logger - Shutting down driver
+----------------------------------------------

@@ -6,10 +6,10 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(tags = "", 
-					monochrome = true, 
-					features = "src/test/java/features", 
-					glue = { "StepDefinitions", "core" }, 
-					plugin = { "pretty", "json:target/cucumber.json", "html:target/cucumber-report" })
+				monochrome = true, 
+				features = "src/test/java/features", 
+				glue = { "StepDefinitions", "core" }, 
+				plugin = { "pretty", "json:target/cucumber.json", "html:target/cucumber-report" })
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

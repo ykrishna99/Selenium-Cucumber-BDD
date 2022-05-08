@@ -1,85 +1,49 @@
-05 May 2022 09:25:49  INFO logger - .
-05 May 2022 09:25:49  INFO logger - Google page loaded successfully
-05 May 2022 09:25:50  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 09:25:52  INFO logger - .
-05 May 2022 09:25:52  INFO logger - Google page loaded successfully
-05 May 2022 09:25:54  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 09:25:54  INFO logger - Shutting down driver
+08 May 2022 22:11:09  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 22:11:09  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 09:27:50  INFO logger - .
-05 May 2022 09:27:50  INFO logger - Google page loaded successfully
-05 May 2022 09:27:50  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 09:27:52  INFO logger - .
-05 May 2022 09:27:52  INFO logger - Google page loaded successfully
-05 May 2022 09:27:52  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 09:27:52  INFO logger - Shutting down driver
+08 May 2022 22:15:16  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 22:15:16  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 16:25:49  INFO logger - Shutting down driver
+08 May 2022 22:19:57  INFO logger - ClassName :pages.NewArticlePage
+08 May 2022 22:19:57  INFO logger - MethodName :findElement
+08 May 2022 22:19:57  INFO logger - Exception :Element not found By.xpath: //h1
+08 May 2022 22:19:57  INFO logger - -----------------------------------------------------------------------------------
+08 May 2022 22:19:57  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 22:19:59  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 17:37:11  INFO logger - Shutting down driver
+08 May 2022 22:22:00  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 17:51:41  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 17:51:43  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 17:51:45  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 17:51:47  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 17:51:47  INFO logger - Shutting down driver
+08 May 2022 22:24:28  INFO logger - .
+08 May 2022 22:24:28  INFO logger - Google page loaded successfully
+08 May 2022 22:24:29  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 22:24:31  INFO logger - .
+08 May 2022 22:24:31  INFO logger - Google page loaded successfully
+08 May 2022 22:24:33  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 22:25:07  INFO logger - Generated username: kerri.kshlerin
+08 May 2022 22:25:07  INFO logger - Generated email: jimmie@test.com
+08 May 2022 22:25:13  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 17:58:38  INFO logger - Shutting down driver
+08 May 2022 22:27:23  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 22:27:49  INFO logger - Generated username: hyon.carroll
+08 May 2022 22:27:49  INFO logger - Generated email: olga@test.com
+08 May 2022 22:27:56  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 18:55:55  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 18:55:55  INFO logger - Shutting down driver
+08 May 2022 22:33:03  INFO logger - Generated username: luigi.cole
+08 May 2022 22:33:03  INFO logger - Generated email: bernardine@test.com
+08 May 2022 22:33:09  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 19:00:44  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 19:00:44  INFO logger - Shutting down driver
+08 May 2022 22:57:38  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 19:04:12  INFO logger - Shutting down driver
+08 May 2022 22:58:40  INFO logger - Generated username: roy.lemke
+08 May 2022 22:58:40  INFO logger - Generated email: terrance@test.com
+08 May 2022 22:58:47  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 19:24:08  INFO logger - Generated username: gloria.wintheiser
-05 May 2022 19:24:08  INFO logger - Generated email: enrique@test.com
-05 May 2022 19:24:09  INFO logger - Shutting down driver
+08 May 2022 22:59:53  INFO logger - Scenario failed and screenshot saved in resources folder
+08 May 2022 23:00:20  INFO logger - Generated username: grover.rogahn
+08 May 2022 23:00:20  INFO logger - Generated email: deneen@test.com
+08 May 2022 23:00:27  INFO logger - Shutting down driver
 ----------------------------------------------
-05 May 2022 19:53:23  INFO logger - Generated username: don.davis
-05 May 2022 19:53:23  INFO logger - Generated email: franklin@test.com
-05 May 2022 19:53:26  INFO logger - ClassName :pages.ConduitSignupPage
-05 May 2022 19:53:26  INFO logger - MethodName :findElement
-05 May 2022 19:53:26  INFO logger - Exception :Element not found By.xpath: //a[@href=/profile/]
-05 May 2022 19:53:26  INFO logger - -----------------------------------------------------------------------------------
-05 May 2022 19:53:27  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 19:53:27  INFO logger - Shutting down driver
-----------------------------------------------
-05 May 2022 20:05:12  INFO logger - Generated username: jarrett.gerlach
-05 May 2022 20:05:12  INFO logger - Generated email: renaldo@test.com
-05 May 2022 20:05:15  INFO logger - ClassName :pages.ConduitSignupPage
-05 May 2022 20:05:15  INFO logger - MethodName :findElement
-05 May 2022 20:05:15  INFO logger - Exception :Element not found By.xpath: //a[@href='/profile/'']
-05 May 2022 20:05:15  INFO logger - -----------------------------------------------------------------------------------
-05 May 2022 20:05:15  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 20:05:15  INFO logger - Shutting down driver
-----------------------------------------------
-05 May 2022 20:15:20  INFO logger - Generated username: titus.waters
-05 May 2022 20:15:20  INFO logger - Generated email: zenobia@test.com
-05 May 2022 20:15:26  INFO logger - Scenario failed and screenshot saved in resources folder
-05 May 2022 20:15:26  INFO logger - Shutting down driver
-----------------------------------------------
-05 May 2022 20:28:06  INFO logger - Generated username: edgardo.kulas
-05 May 2022 20:28:06  INFO logger - Generated email: vicenta@test.com
-05 May 2022 20:28:09  INFO logger - Shutting down driver
-----------------------------------------------
-05 May 2022 20:33:41  INFO logger - .
-05 May 2022 20:33:41  INFO logger - Google page loaded successfully
-05 May 2022 20:33:42  INFO logger - .
-05 May 2022 20:33:42  INFO logger - Google page loaded successfully
-05 May 2022 20:33:47  INFO logger - .
-05 May 2022 20:33:47  INFO logger - selenium bdd framework - Google Search page loaded successfully
-05 May 2022 20:33:52  INFO logger - .
-05 May 2022 20:33:52  INFO logger - Google page loaded successfully
-05 May 2022 20:33:53  INFO logger - .
-05 May 2022 20:33:53  INFO logger - Google page loaded successfully
-05 May 2022 20:33:58  INFO logger - .
-05 May 2022 20:33:58  INFO logger - Google Images page loaded successfully
-05 May 2022 20:34:02  INFO logger - .
-05 May 2022 20:34:02  INFO logger - selenium bdd framework - Google Search page loaded successfully
-05 May 2022 20:34:07  INFO logger - Generated username: clarissa.hahn
-05 May 2022 20:34:07  INFO logger - Generated email: kim@test.com
-05 May 2022 20:34:13  INFO logger - Shutting down driver
+08 May 2022 23:04:38  INFO logger - Generated username: lee.rempel
+08 May 2022 23:04:38  INFO logger - Generated email: deloise@test.com
+08 May 2022 23:04:45  INFO logger - Shutting down driver
 ----------------------------------------------

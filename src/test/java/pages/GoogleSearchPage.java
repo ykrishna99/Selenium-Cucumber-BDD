@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import core.CommonMethods;
+import core.TestBase;
 
 /**
  * class to interact with page
@@ -15,7 +15,7 @@ import core.CommonMethods;
  *         This class has web elements of homepage which are used by
  *         HomePageHelper
  */
-public class GoogleSearchPage extends CommonMethods {
+public class GoogleSearchPage extends TestBase {
 
 	public GoogleSearchPage(WebDriver driver) throws IOException {
 		super(driver);

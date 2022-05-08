@@ -5,14 +5,14 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import core.CommonMethods;
+import core.TestBase;
 
-public class ConduitSignupPage extends CommonMethods{
+public class SignupPage extends TestBase {
 
-	public ConduitSignupPage(WebDriver driver) throws IOException {
+	public SignupPage(WebDriver driver) throws IOException {
 		super(driver);
 	}
-	
+
 	public By signupLink = By.xpath("//a[text()=' Sign up ']");
 	public By signupHeader = By.xpath("//h1");
 	public By username = By.xpath("//input[@placeholder='Username']");

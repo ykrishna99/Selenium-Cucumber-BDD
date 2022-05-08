@@ -31,10 +31,10 @@ import logger.Log;
  * on webelement. It is a repository so that same code need not to be written
  * again.
  * 
- * @author shanky
+ * @author Krishna Rao
  *
  */
-public class CommonMethods extends Assertions {
+public class TestBase extends Assertions {
 
 	WebDriver driver = null;
 	public final long timeOut = 45;
@@ -42,7 +42,7 @@ public class CommonMethods extends Assertions {
 	protected FileInputStream configFis;
 	protected File file = new File("");
 
-	public CommonMethods(WebDriver driver) throws IOException {
+	public TestBase(WebDriver driver) throws IOException {
 		super(driver);
 		this.driver = driver;
 	}

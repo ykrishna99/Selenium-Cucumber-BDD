@@ -28,7 +28,7 @@ import logger.Log;
  * under @Before and @After hooks to get initialized at start and end of the
  * test.
  * 
- * @author shanky
+ * @author Krishna Rao
  *
  */
 public class CreateSession {

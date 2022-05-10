@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.SkipException;
 
 import core.Assertions;
 import core.CreateSession;
@@ -62,5 +63,19 @@ public class SignUp {
 	public void I_will_verify_sign_up_success() {
 		String signInUser = signUp.findElement(signUp.signInUser).getText().trim();
 		ass.verifyEquals(signInUser, username, "Signup failed", true, false);
+	}
+
+	@Given("user is logged in?")
+	public void user_is_logged_in() {
+		try {
+			boolean userTrue = signUp.findElement(signUp.signInUser).isDisplayed();
+			if (userTrue) {
+				Log.info("Skipping the rest of the steps in scenario execution");
+				throw new SkipException("Skipping the rest of the steps in scenario execution");
+			}
+			
+		} catch (Exception e) {
+			
+		}
 	}
 }

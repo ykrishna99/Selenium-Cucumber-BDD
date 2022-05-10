@@ -36,10 +36,21 @@ public class NewArticle {
 
 	@When("^user enters \"(.*)\", \"(.*)\", \"(.*)\" and publish$")
 	public void fillNewArticleDetails(String about, String body, String tags) {
+		if (articleName == null) {
+			articleName = dataGen.getArticleTitle();
+		}
+		newArticle.findElement(newArticle.articleTitle).clear();
 		newArticle.findElement(newArticle.articleTitle).sendKeys(articleName);
+		
+		newArticle.findElement(newArticle.articleAbout).clear();
 		newArticle.findElement(newArticle.articleAbout).sendKeys(about);
+		
+		newArticle.findElement(newArticle.article).clear();
 		newArticle.findElement(newArticle.article).sendKeys(body);
+		
+		newArticle.findElement(newArticle.articleTags).clear();
 		newArticle.findElement(newArticle.articleTags).sendKeys(tags);
+		
 		newArticle.findElement(newArticle.publishArticleButton).click();
 		newArticle.wait(2000);
 	}
@@ -63,6 +74,6 @@ public class NewArticle {
 		newArticle.findElement(newArticle.globalFeed).click();
 		newArticle.wait(3000);
 		String artTitle = newArticle.findElement(newArticle.publishedArticleHeader).getText();
-		ass.verifyEquals(artTitle, artTitle, "Published article not displayed", true, false);
+		ass.verifyEquals(artTitle, articleName, "Published article not displayed", true, false);
 	}
 }

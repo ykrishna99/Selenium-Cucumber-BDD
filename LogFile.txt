@@ -47,3 +47,62 @@
 08 May 2022 23:04:38  INFO logger - Generated email: deloise@test.com
 08 May 2022 23:04:45  INFO logger - Shutting down driver
 ----------------------------------------------
+10 May 2022 22:52:23  INFO logger - ClassName :pages.SignupPage
+10 May 2022 22:52:23  INFO logger - MethodName :findElement
+10 May 2022 22:52:23  INFO logger - Exception :Element not found By.xpath: //img[@class='user-pic']/parent :: a
+10 May 2022 22:52:23  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 22:52:33  INFO logger - ClassName :pages.HomePage
+10 May 2022 22:52:33  INFO logger - MethodName :findElement
+10 May 2022 22:52:33  INFO logger - Exception :Element not found By.xpath: //a[text()=' Sign in ']
+10 May 2022 22:52:33  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 22:52:34  INFO logger - Scenario failed and screenshot saved in resources folder
+10 May 2022 22:52:44  INFO logger - ClassName :pages.HomePage
+10 May 2022 22:52:44  INFO logger - MethodName :findElement
+10 May 2022 22:52:44  INFO logger - Exception :Element not found By.xpath: //img[@class='user-pic']/parent :: a
+10 May 2022 22:52:44  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 22:52:44  INFO logger - Scenario failed and screenshot saved in resources folder
+10 May 2022 22:52:44  INFO logger - Shutting down driver
+----------------------------------------------
+10 May 2022 22:55:01  INFO logger - ClassName :pages.SignupPage
+10 May 2022 22:55:01  INFO logger - MethodName :findElement
+10 May 2022 22:55:01  INFO logger - Exception :Element not found By.xpath: //img[@class='user-pic']/parent :: a
+10 May 2022 22:55:01  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 22:55:09  INFO logger - Candace Spencer
+10 May 2022 22:55:09  INFO logger - Armand Hammer
+10 May 2022 22:55:09  INFO logger - Sal Ami
+10 May 2022 22:55:09  INFO logger - selenium
+10 May 2022 22:55:11  INFO logger - Scenario failed and screenshot saved in resources folder
+10 May 2022 22:55:11  INFO logger - Shutting down driver
+----------------------------------------------
+10 May 2022 23:00:48  INFO logger - ClassName :pages.SignupPage
+10 May 2022 23:00:48  INFO logger - MethodName :findElement
+10 May 2022 23:00:48  INFO logger - Exception :Element not found By.xpath: //img[@class='user-pic']/parent :: a
+10 May 2022 23:00:48  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 23:00:56  INFO logger - Candace Spencer
+10 May 2022 23:00:56  INFO logger - Armand Hammer
+10 May 2022 23:00:56  INFO logger - Sal Ami
+10 May 2022 23:00:56  INFO logger - selenium
+10 May 2022 23:00:59  INFO logger - Scenario failed and screenshot saved in resources folder
+10 May 2022 23:00:59  INFO logger - Shutting down driver
+----------------------------------------------
+10 May 2022 23:06:01  INFO logger - ClassName :pages.SignupPage
+10 May 2022 23:06:01  INFO logger - MethodName :findElement
+10 May 2022 23:06:01  INFO logger - Exception :Element not found By.xpath: //img[@class='user-pic']/parent :: a
+10 May 2022 23:06:01  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 23:06:08  INFO logger - Candace Spencer
+10 May 2022 23:06:08  INFO logger - Armand Hammer
+10 May 2022 23:06:08  INFO logger - Sal Ami
+10 May 2022 23:06:08  INFO logger - selenium
+10 May 2022 23:06:14  INFO logger - Scenario failed and screenshot saved in resources folder
+10 May 2022 23:06:14  INFO logger - Shutting down driver
+----------------------------------------------
+10 May 2022 23:09:44  INFO logger - ClassName :pages.SignupPage
+10 May 2022 23:09:44  INFO logger - MethodName :findElement
+10 May 2022 23:09:44  INFO logger - Exception :Element not found By.xpath: //img[@class='user-pic']/parent :: a
+10 May 2022 23:09:44  INFO logger - -----------------------------------------------------------------------------------
+10 May 2022 23:09:52  INFO logger - Candace SpencerMoe DeLawn
+10 May 2022 23:09:52  INFO logger - Armand Hammer
+10 May 2022 23:09:52  INFO logger - Sal Ami
+10 May 2022 23:09:52  INFO logger - selenium
+10 May 2022 23:10:04  INFO logger - Shutting down driver
+----------------------------------------------

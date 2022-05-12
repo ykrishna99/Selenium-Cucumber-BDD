@@ -1,5 +1,5 @@
 #Author: Krishna Rao
-@edit
+@conduit
 Feature: I want to edit my article
   Given generate random article title
 
@@ -31,3 +31,12 @@ Feature: I want to edit my article
     Examples: 
       | about   | article_text            | tags     |
       | Testing | Automation is beautiful | cucumber |
+
+  @signout
+  Scenario: User Signout from Conduit app
+    Given I will click on user pic
+    And I will verify user posts page displayed
+    When I will click on edit profile settings button
+    And I will verify user settings page displayed
+    Then I will click on logout button
+    And I will verify user logged out

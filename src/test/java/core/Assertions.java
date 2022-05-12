@@ -19,6 +19,7 @@ import logger.Log;
  * class.
  */
 public class Assertions {
+	
 	public boolean testCaseStatus = true;
 	private WebDriver driver;
 	private File file;
@@ -27,7 +28,7 @@ public class Assertions {
 
 	public Assertions(WebDriver driver) {
 		file = new File("");
-		testScreenshotDir = file.getAbsoluteFile() + "/resources";
+		testScreenshotDir = file.getAbsoluteFile() + "/target/";
 		this.driver = driver;
 
 	}
